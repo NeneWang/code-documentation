@@ -70,7 +70,7 @@ font-size: .65em;
 
 ## Error
 
-The CSS created in the distributable styles (docs/.vuepress/dist/assets/css/0.styles.7a8efcdf.css) seems to be created because of Vuepress default theme implementation of :blur, which might not be available yet for CSS Level 3
+The CSS created in the distributable styles (docs/.vuepress/dist/assets/css/0.styles.7a8efcdf.css) (after running yarn docs:build) seems to be created because of Vuepress default theme implementation of :blur, which might not be available yet for CSS Level 3
 
 ![Untitled](Readme%20Lab%205%202%2085d865b6302e493693c2f5fb6798ded8/Untitled.png)
 
