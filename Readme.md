@@ -4,6 +4,13 @@
 
 # Lab 5.2
 
+Table of Contents:
+- [Readme Lab 5.2](#readme-lab-52)
+- [Lab 5.2](#lab-52)
+  - [Badges](#badges)
+  - [My Styling](#my-styling)
+  - [Error](#error)
+
 ## Badges
 
 Badges:
@@ -22,6 +29,7 @@ Badges:
         alt="Valid CSS!" />
     </a>
 </p>
+
 ## My Styling
 
 I made the styling in stylus CSS pre-processor. My Styling can be found in index.styl (docs/.vuepress/stylus)
