@@ -9,7 +9,7 @@ Table of Contents:
 - [Lab 5.2](#lab-52)
   - [Badges](#badges)
   - [My Styling](#my-styling)
-  - [Error](#error)
+  - [Yarn Build CSS Error](#yarn-build-css-error)
 
 ## Badges
 
@@ -78,7 +78,7 @@ font-size: .65em;
 }
 ```
 
-## Error
+## Yarn Build CSS Error
 
 The CSS created in the distributable styles (docs/.vuepress/dist/assets/css/0.styles.7a8efcdf.css) (after running yarn docs:build) seems to be created because of Vuepress default theme implementation of :blur, which might not be available yet for CSS Level 3
 
