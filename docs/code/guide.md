@@ -5,38 +5,53 @@
 Table of Contents:
 [[toc]]
 
-## Components
-### Using Vue Press
-<br>
-- [Official Documentation](https://v1.vuepress.vuejs.org/)
+<!-- 
+TODO ### Custom Components -->
 
-Useful reminders:
-
-Action, Command
-quick new line, ```&nbsp;```
-Table of contents, ```[[toc]]```
-
-
-
-### Custom Components
-
-## Automation and Development
+## Setup
 
 ### Requirements
 &nbsp;
-- Node
-- Vue
-- Yarn
-- Make
-- git-ftp
-- git
+- [Node](https://nodejs.org/en/download/ )
+- [Vue](https://vuejs.org/v2/guide/installation.html)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+- [Make](http://gnuwin32.sourceforge.net/packages/make.htm)
+- [git](https://git-scm.com/downloads)
+- [git-ftp](https://blog.jongallant.com/2017/01/install-git-ftp-windows/)
 
 
 
-### Makefile
-| action                                               | code                                              |
+### Running the Repository on your Local Machine
+
+ 1. Make sure you have the requirements installed 
+ 2. Open your terminal
+ 3. Clone the repo: ```git clone https://github.com/NeneWang/code-documentation.git```
+ 4. Navigate to root folder: ```cd code-documentation/ ```
+ 5. Install Dependencies: ```yarn install```
+ 6. localhost:```yarn docs:dev``` 
+
+
+### How to update the documentation (using make)
+
+ 1. Save and push changes to the respository: ```make cap m="your build message"```
+ 2. Build and FTP Trasnfer to production: ```make v="versionID" ``` (versionID is optional)
+
+### How to update the documentation (using github actions)
+
+
+ 1. Make your changes in Master branch
+ 2. Track your changes ```git add --all```
+ 3. Commit ```git commit -m "message"```
+ 4. Push to master branch ```git push origin master```
+ 5. Checkout deployment branch ```git checkout deployment```
+ 6. Merge changes made in master into deployment branch ```git merge master```
+ 
+
+
+### Automation using Make
+| Action                                               | Code                                              |
 | ---------------------------------------------------- | ------------------------------------------------- |
-| Deploy to [Production](https://docs.wangnelson.xyz/) | ```make v=<deployment version> e.g: make v=1.2``` |
+| Deploy to [Production](https://docs.wangnelson.xyz/) | ```make v=<deployment version> ``` <br> e.g: ```make v=1.2``` |
 | Commit all and push to github                        | ```make cap m=example```                          |
 | Build commit and push to origin (not deploying)      | ```make build-commit v=1.3```                     |
 | Push to production                                   | ```make ft-push ```                               |
@@ -44,9 +59,26 @@ Table of contents, ```[[toc]]```
 | First deployment to server                           | ```make first-deploy ```                          |
 | Build commit and push to origin (not deploying)      | ```make build-commit ```                          |
 
+## Components
+### Using VuePress
+<br>
+
+- [Vuepress | Official Guide](https://vuepress.vuejs.org/guide/)
+
+Quick Vuepress Commands example:
+
+| Action            | Command       |
+| ----------------- | ------------- |
+| quick new line    | ```&nbsp;```  |
+| Table of contents | ```[[toc]]``` |
+| Tip  | ```::: danger STOP Danger zone, do not proceed:::``` <br> (danger, tip, warning, details) |
 
 
-## Workflow
+<!-- Action, Command
+quick new line, ```&nbsp;```
+Table of contents, ```[[toc]]``` -->
+
+
 
 
 
