@@ -8,6 +8,9 @@ Table of Contents:
 - [Readme Lab 5.2](#readme-lab-52)
 - [Lab 5.2](#lab-52)
   - [Badges](#badges)
+  - [Setup](#setup)
+    - [Requirements](#requirements)
+    - [Running the Repository on your Local Machine](#running-the-repository-on-your-local-machine)
   - [My Styling](#my-styling)
   - [Yarn Build CSS Error](#yarn-build-css-error)
 
@@ -29,6 +32,28 @@ Badges:
         alt="Valid CSS!" />
     </a>
 </p>
+
+## Setup
+
+### Requirements
+- [Node](https://nodejs.org/en/download/ )
+- [Vue](https://vuejs.org/v2/guide/installation.html)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+- [Make](http://gnuwin32.sourceforge.net/packages/make.htm)
+- [git](https://git-scm.com/downloads)
+- [git-ftp](https://blog.jongallant.com/2017/01/install-git-ftp-windows/)
+
+
+
+### Running the Repository on your Local Machine
+
+ 1. Make sure you have the requirements installed 
+ 2. Open your terminal
+ 3. Clone the repo: ```git clone https://github.com/NeneWang/code-documentation.git```
+ 4. Navigate to root folder: ```cd code-documentation/ ```
+ 5. Install Dependencies: ```yarn install```
+ 6. localhost:```yarn docs:dev``` 
+
 
 ## My Styling
 
