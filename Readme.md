@@ -1,3 +1,5 @@
+# Readme Lab 5.2
+
 # Lab 5.2
 
 ## Badge
@@ -70,11 +72,11 @@ font-size: .65em;
 
 The CSS created in the distributable styles (docs/.vuepress/dist/assets/css/0.styles.7a8efcdf.css) seems to be created because of Vuepress default theme implementation of :blur, which might not be available yet for CSS Level 3
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef7c19db-9e6c-48fe-bf7a-022b433f35e0/Untitled.png)
+![Untitled](Readme%20Lab%205%202%2085d865b6302e493693c2f5fb6798ded8/Untitled.png)
 
 After manually deleting , everything seems to works fine
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d60662c3-e0d0-4281-979d-83685338f636/Untitled.png)
+![Untitled](Readme%20Lab%205%202%2085d865b6302e493693c2f5fb6798ded8/Untitled%201.png)
 
 ```
 <p>
